@@ -1,0 +1,24 @@
+name: flutter_issue_32609
+description: Sample code to solve flutter issue 32609
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.svprdga.flutter_issue_32609
+    pluginClass: FlutterIssue32609Plugin
+  assets:
+    - res/icon/
+
